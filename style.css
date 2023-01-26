@@ -1,0 +1,25 @@
+body{
+    background-color: darkgrey;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 20px;
+
+}
+
+div:last-child{
+    margin-bottom: 0px;
+}
